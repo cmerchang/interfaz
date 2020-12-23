@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.container_general{
+    margin: 0 auto; 
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+}
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 25px;
+    color:gold;
+}
+.container{
+    background:grey;
+    color:floralwhite;
+    border: 1px solid floralwhite;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 2px black;
+    border-radius: 5px;
+    width: 22%;
+    box-sizing: border-box;
+}
+.boton{
+    background: cornflowerblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: cornsilk;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.boton :hover{
+    background: cornsilk;
+}
+@media(max-width: 1070px ){
+    .container{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 600px ){
+    .container{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
